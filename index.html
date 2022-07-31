@@ -484,32 +484,79 @@
             <h2 class="title">Оставьте свои данные, мы вам перезвоним</h2>
             <form class="form" name="main-form" autocomplete="on" novalidate>
 
-              <div class="form-field">
-                <label class="form-field-label" for="user-name" >
-                Имя
-                    <input class="form-field-input" id="user-name" type="text" name="user-name">
-                </label>
-              </div>
-
+              
+              
               <div class="form-field">
                 <label class="form-field-label" for="user-tel" >
-                Телефон
-                    <input class="form-field-input" id="user-tel" type="text" name="user-tel">
-                </label>
+                Имя
+                <div class="form-field-inner">
+                      <svg class="icons-field-size">
+                      <use href="./images/icons/sprite_checkbox.svg#icon-person-black_o">
+                      </use>
+                    </svg>
+                    <input class="form-field-input" type="text" name="user-name" id="user-name" required autofocus>
+                </div></label>
               </div>
+
+
+
+
+              
+              <div class="form-field">
+                <label class="form-field-label" for="user-tel" >
+                Телефон</label>
+                <div class="form-field-inner">                   
+                    <svg class="icons-field-size">
+                      <use href="./images/icons/sprite_checkbox.svg#icon-phone-black_o">
+                      </use>
+                    </svg>
+                    <input class="form-field-input" id="user-mail" type="text" name="user-tel" required autofocus>
+                </div>
+              </div>
+
+
+
 
               <div class="form-field">
                 <label class="form-field-label" for="user-mail" >
-                Почта
-                    <input class="form-field-input" id="user-mail" type="text" name="user-mail">
-                </label>
+                Почта</label>
+                <div class="form-field-inner">
+                    <svg class="icons-field-size">
+                      <use href="./images/icons/sprite_checkbox.svg#icon-mail_black_o">
+                      </use>
+                    </svg>
+                    <input class="form-field-input" id="user-mail" type="text" name="user-mail" required autofocus>
+                </div>
               </div>
 
               <div class="form-field">                
                 <label class="form-field-label" for="user-com" >
-                Комментарий
-                    <!--<input  id="user-com" type="text" name="user-com" >-->
-                    <textarea class="form-field-input-com" resize="none" name="feedback" rows="5" placeholder="Введите текст"></textarea>
+                Комментарий</label>
+                    <textarea  id="user-com" class="form-field-input-com" resize="none" 
+                    name="user-com" placeholder="Введите текст"></textarea>
+<!--Checkbox-->
+
+        <ul class="checkbox list">
+          <li class="">
+            <a class="marker-checkbox" href="">
+            <svg class="icons-checkbox-size">
+              <use href="./images/icons/sprite_checkbox.svg#icon-icon_check_activ_o">
+              </use>
+            </svg>
+            </a>
+          </li>
+          <li class=""><a class="text-contract" href="">Соглашаюсь с рассылкой и принимаю</a></li>
+          <li class=""><a class="contract" href="">Условия договора</a></li>
+        </ul>
+               
+
+                <div class="form-field-button-position"><button class="form-field-button" type="submit"><p class="form-field-button-title">Отправить</p>
+                </button></div>
+                    
+                
+                  
+
+                    
                 </label>
               </div>
 
