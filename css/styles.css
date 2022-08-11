@@ -1186,8 +1186,8 @@ textarea {
 
 /*CHECKBOX-5*/
 .check-box {
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .ch-control {
   flex-shrink: 0;
@@ -1199,7 +1199,6 @@ justify-content: center;
   margin-right: 8px;
   margin-top: 1px;
 }
-
 .ch-activ-icon {
   opacity: 0;
   width: 17px;
@@ -1207,17 +1206,16 @@ justify-content: center;
   transition-property: opacity;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-  }
- .ch-icon {
-position: absolute;
-width: 16px;
-height: 15px;
+}
+.ch-icon {
+  position: absolute;
+  width: 16px;
+  height: 15px;
 }
 
-  .ch__input:checked + .ch-activ-icon {
+.ch__input:checked + .ch-activ-icon {
   opacity: 1;
 }
- .ch__input:checked ~ .ch-icon {
+.ch__input:checked ~ .ch-icon {
   display: none;
 }
