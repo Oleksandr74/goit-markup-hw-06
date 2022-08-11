@@ -1163,6 +1163,8 @@ textarea {
 }
 .checkbox__input {
   appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
   position: absolute;
 }
 .che__box {
@@ -1179,7 +1181,6 @@ textarea {
   margin-left: 20px;
 }
 .checkbox__input:checked + .che__box {
-  background-image: url(/images/icons/clock_o.svg);
+  background-image: url(/images/icons/icons_checkbox/icon_check_activ_o.svg);
 }
 
-/*/images/icons/icons_checkbox/icon_check_activ_o.svg*/
