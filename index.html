@@ -526,13 +526,31 @@
                     name="user-com" placeholder="Введите текст"></textarea>
               </div>
 <!--Checkbox-->
-<!--version 4-->
+<!--version 4
 <div class="checkbox">
   <label class="checkbox__label" for="che">              
     <input class="checkbox__input" type="checkbox" id="che" name="che">
     <span class="che__box"></span>        
             Соглашаюсь с рассылкой и принимаю<span><a class="contract" href="">Условия договора</a></span>
   </label>      
+</div>-->
+<!--version 5-->
+<div class="check-box">  
+  <div class="ch-control">         
+    <input class="ch__input visually-hidden" type="checkbox" id="ch" name="ch">
+                  <svg class="ch-activ-icon">
+                    <use href="./images/icons/icons_checkbox/sprite_checkbox.svg#icon-che_activ_o" width="20" height="20">
+                    </use>
+                  </svg>
+
+                  <svg class="ch-icon">
+                    <use href="./images/icons/icons_checkbox/sprite_checkbox.svg#icon-che_o" width="20" height="20">
+                    </use>
+                  </svg>
+  </div>
+    <label class="ch__label" for="ch">       
+            Соглашаюсь с рассылкой и принимаю<span><a class="contract" href="">Условия договора</a></span>    
+    </label> 
 </div>
 
               
