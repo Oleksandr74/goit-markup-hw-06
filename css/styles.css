@@ -973,7 +973,7 @@ a {
   width: 100%;
   height: 120px;
 
-  margin-bottom: 20px;
+ 
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 
@@ -997,15 +997,23 @@ a {
 
 .form-field-label {
   display: block;
-
-  margin-top: 10px;
+  margin-bottom: 10px;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: var(--letter-color);
 }
+.form-field-label-com {
+  display: block;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+  color: var(--letter-color);
+  margin-bottom: 20px;
+}
 .form-field-label-position {
   margin-bottom: 4px;
+  display: block;
 }
 .form-field-terms {
   display: flex;
@@ -1028,6 +1036,9 @@ textarea {
 .form-field-button {
   display: flex;
   justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
   width: 200px;
   height: 50px;
   background: var(--accent-color);
@@ -1113,8 +1124,8 @@ textarea {
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 17px;
-  right: 17px;
+  top: 8px;
+  right: 8px;
   border-radius: 50%;
   background: var(--basic-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -1177,45 +1188,48 @@ textarea {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.checkbox__lable {
-  margin-left: 20px;
+.ch__lable {
+display: flex;
+align-items: center;
+justify-content: center;
 }
 .checkbox__input:checked + .che__box {
   background-image: url(/images/icons/icons_checkbox/icon_check_activ_o.svg);
 }
 
 /*CHECKBOX-5*/
-.check-box {
-  display: flex;
-  justify-content: center;
-}
-.ch-control {
-  flex-shrink: 0;
-  display: flex;
+
+
+.ch-icon-pass {
+display: flex;
   align-items: center;
   justify-content: center;
+
+  
   width: 16px;
-  height: 15px;
-  margin-right: 8px;
-  margin-top: 1px;
+  height: 15px; 
+  border-radius: 2px;
+  border: 2px solid #2f303a;
+  
+}
+.chek {
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
 }
 .ch-activ-icon {
   opacity: 0;
-  width: 17px;
-  height: 16px;
+  width: 16px;
+  height: 15px;
   transition-property: opacity;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.ch-icon {
-  position: absolute;
-  width: 16px;
-  height: 15px;
 }
 
 .ch__input:checked + .ch-activ-icon {
   opacity: 1;
 }
-.ch__input:checked ~ .ch-icon {
-  display: none;
+
+.ch__input:checked ~ .ch-icon-pass {
+  opacity: 0;
 }
