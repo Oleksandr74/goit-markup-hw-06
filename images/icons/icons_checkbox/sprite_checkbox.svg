@@ -20,5 +20,11 @@
 <symbol id="icon-che_o" width="16" height="15" fill="" xmlns="http://www.w3.org/2000/svg">
   <path d="M14.2 1.7v11.6H1.8V1.7h12.4Zm0-1.7H1.8C.8 0 0 .8 0 1.7v11.6c0 1 .8 1.7 1.8 1.7h12.4c1 0 1.8-.8 1.8-1.7V1.7c0-1-.8-1.7-1.8-1.7Z" fill="#212121"/>
 </symbol>
+<symbol id="icon-check_vector_o" viewBox="0 0 42 32">
+<path d="M6.4 15.36l-0.32-0.32-3.2 2.88v0.32l11.2 10.88h0.32l24.32-23.040v-0.32l-3.2-2.88-21.12 20.16-8-7.68z"></path>
+</symbol>
+<symbol id="icon-icon-send_o" viewBox="0 0 32 32">
+<path d="M32 0l-32 18 10.267 3.733 15.733-14.667-12 16v8.933l5.733-6.667 7.333 2.667 4.933-28z"></path>
+</symbol>
 </defs>
 </svg>

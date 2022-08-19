@@ -416,7 +416,7 @@
 </li>
         <!-- footer-ss-->
 <li class="icon-size  icon-size-padding">
-      <h3 class="icons-footer-title">ПРИСОЕДИНЯЙТЕСЬ</h3>
+      <h3 class="footer-form__title">ПРИСОЕДИНЯЙТЕСЬ</h3>
         <ul class="icons-footer list">
 
           <li class="icon-footer">
@@ -457,11 +457,49 @@
                   </a>   
                 </li>
               </ul>
+            </li>
+<li class="icon-size icon-size-padding">
+  <ul class="footer-form list">
+    <li>
+      <!-- FOOTER'S FORM-->
+
+            <h3 class="footer-form__title">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h2>
+            <form class="form" name="main-form">
+                <label class="footer-form__label" for="user_email" >
+              
+                <span class="footer-form__inner">
+                      
+                    <input class="footer-form__input" id="user_email" type="email" name="email" placeholder="E-mail">
+                </span></label>
+    </li>
+
+    <li>
+  <!--BUTTON-->
+<button class="footer-form__button" type="submit">
+      <ul class="footer-form__button--form list">
+        <li>
+<p class="form-field__button--title">Подписаться</p>
+        </li>
+        <li>
+          <svg class="footer-form__icon">
+      <use href="./images/icons/icons_checkbox/sprite_checkbox.svg#icon-icon-send_o">
+      </use> 
+      </svg>
+        </li>
+      </ul>
+        
+</button>
+    </form>
+  <!--BUTTON END-->
+    </li>
+  </ul>
+ <!--FOOTER'S FORM END-->  
+  
 </li>
 </ul>
 
         </div>
-      
+     
     </footer>
 
     <div class="backdrop is-hidden " data-modal>
@@ -473,11 +511,11 @@
                     </use>
                   </svg>
       </button>
-          <div class="modal-section" width="448">
+          
+
+              <div class="modal-section" width="448">
             <h2 class="title">Оставьте свои данные, мы вам перезвоним</h2>
             <form class="form" name="main-form" autocomplete="on" novalidate>
-
-              
               
               
                 <label class="form-field-label" for="user-name" >
@@ -517,46 +555,38 @@
               
 
                               
-                <label class="form-field-label-com" for="user-com" >
+                <label class="form__field--label-com" for="user-com" >
                   <span class="form-field-label-position">Комментарий</span>
 
                   <textarea  id="user-com" class="form-field-input-com" resize="none" 
                     name="user-com" placeholder="Введите текст"></textarea>
                 </label>
-<!--Checkbox-->
- <!--version 6-->
-    <label class="chek" for="ch">  
-     <input class="ch__input visually-hidden" type="checkbox" id="ch" name="ch">
-                 <span class="ch-icon-pass">
-                    <svg class="ch-activ-icon">
-                    <use href="./images/icons/icons_checkbox/sprite_checkbox.svg#icon-che_activ_o" width="20" height="20">
+
+
+<input 
+type="checkbox" 
+id="checkbox" 
+name="checkbox" 
+class="checkbox__input visually-hidden" 
+value="tru"/> 
+<label for="checkbox" class="checkbox__lable">
+ 
+              <span>
+                    <svg class="checkbox__icon">
+                    <use href="./images/icons/icons_checkbox/sprite_checkbox.svg#icon-check_vector_o" width="16" height="15">
                     </use>
                   </svg>
-                  </span>
-                  Соглашаюсь с рассылкой и принимаю<span>
-                    <a class="contract" href="">Условия договора</a>
-                </span>
+             </span>
+                  Соглашаюсь с рассылкой и принимаю
+                    <a class="checkbox__contract" href="">Условия договора</a>
+ 
     </label> 
 
-<!--version 4-->
-<div class="checkbox">
-  <label class="checkbox__label" for="che">              
-    <input class="checkbox__input" type="checkbox" id="che" name="che">
-    <span class="che__box"></span>        
-            Соглашаюсь с рассылкой и принимаю<span><a class="contract" href="">Условия договора</a></span>
-  </label>      
-</div>
-
-              
-    <!--<div class="form-field-button-position">-->
-      <button class="form-field-button" type="submit">
-        <p class="form-field-button-title">Отправить</p>
+    
+      <button class="form__field--button" type="submit">
+        <p class="form__field--button-title">Отправить</p>
       </button>
-    </div>
-
-   
-
-               
+       
               
             </form>
           </div>

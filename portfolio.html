@@ -268,7 +268,7 @@
           </li>
           <!-- footer-ss-->
           <li class="icon-size icon-size-padding">
-            <h3 class="icons-footer-title">ПРИСОЕДИНЯЙТЕСЬ</h3>
+            <h3 class="footer-form__title">ПРИСОЕДИНЯЙТЕСЬ</h3>
             <ul class="icons-footer list">
               <li class="icon-footer">
                 <a class="icon-footer-link" href="https://www.instagram.com/">
@@ -317,9 +317,139 @@
               </li>
             </ul>
           </li>
-        </ul>
-      </div>
+<li class="icon-size icon-size-padding">
+  <ul class="footer-form list">
+    <li>
+      <!-- FOOTER'S FORM-->
+
+            <h3 class="footer-form__title">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h2>
+            <form class="form" name="main-form">
+                <label class="footer-form__label" for="user_email" >
+              
+                <span class="footer-form__inner">
+                      
+                    <input class="footer-form__input" id="user_email" type="email" name="email" placeholder="E-mail">
+                </span></label>
+    </li>
+
+    <li>
+  <!--BUTTON-->
+<button class="footer-form__button" type="submit">
+      <ul class="footer-form__button--form list">
+        <li>
+<p class="form-field__button--title">Подписаться</p>
+        </li>
+        <li>
+          <svg class="footer-form__icon">
+      <use href="./images/icons/icons_checkbox/sprite_checkbox.svg#icon-icon-send_o">
+      </use> 
+      </svg>
+        </li>
+      </ul>
+        
+</button>
+    </form>
+  <!--BUTTON END-->
+    </li>
+  </ul>
+ <!--FOOTER'S FORM END-->  
+  
+</li>
+</ul>
+
+        </div>
+     
     </footer>
+
+    <div class="backdrop is-hidden " data-modal>
+      <div class="modal">
+
+<button class="modal-close-button" type="button" class="icons-modal" data-modal-close>
+                  <svg class="icons-modal-size">
+                    <use href="./images/icons/sprite5.svg#icon-close-black" width="17" height="17">
+                    </use>
+                  </svg>
+      </button>
+          
+
+              <div class="modal-section" width="448">
+            <h2 class="title">Оставьте свои данные, мы вам перезвоним</h2>
+            <form class="form" name="main-form" autocomplete="on" novalidate>
+              
+              
+                <label class="form-field-label" for="user-name" >
+                  <span class="form-field-label-position">Имя</span> 
+                <span class="form-field-inner">
+                      <svg class="icons-field-size">
+                      <use href="./images/icons/sprite_checkbox.svg#icon-person-black_o">
+                      </use>
+                    </svg>
+                    <input class="form-field-input" id="user-name" type="text" name="user-name" required autofocus >
+                </span></label>
+              
+
+              
+              
+                <label class="form-field-label" for="user-tel" >
+                <span class="form-field-label-position">Телефон</span>
+                <span class="form-field-inner">                  
+                    <svg class="icons-field-size">
+                      <use href="./images/icons/sprite_checkbox.svg#icon-phone-black_o">
+                      </use>
+                    </svg>
+                    <input class="form-field-input" id="user-tel" type="text" name="user-tel" required>
+                </span></label>
+              
+
+              
+                <label class="form-field-label" for="user-mail" >
+                <span class="form-field-label-position">Почта</span>
+                <span class="form-field-inner">
+                    <svg class="icons-field-size">
+                      <use href="./images/icons/sprite_checkbox.svg#icon-mail_black_o">
+                      </use>
+                    </svg>
+                    <input class="form-field-input" id="user-mail" type="text" name="user-mail" required>
+                  </span></label>
+              
+
+                              
+                <label class="form__field--label-com" for="user-com" >
+                  <span class="form-field-label-position">Комментарий</span>
+
+                  <textarea  id="user-com" class="form-field-input-com" resize="none" 
+                    name="user-com" placeholder="Введите текст"></textarea>
+                </label>
+
+
+<input 
+type="checkbox" 
+id="checkbox" 
+name="checkbox" 
+class="checkbox__input visually-hidden" 
+value="tru"/> 
+<label for="checkbox" class="checkbox__lable">
+ 
+              <span>
+                    <svg class="checkbox__icon">
+                    <use href="./images/icons/icons_checkbox/sprite_checkbox.svg#icon-check_vector_o" width="16" height="15">
+                    </use>
+                  </svg>
+             </span>
+                  Соглашаюсь с рассылкой и принимаю
+                    <a class="checkbox__contract" href="">Условия договора</a>
+ 
+    </label> 
+
+    
+      <button class="form__field--button" type="submit">
+        <p class="form__field--button-title">Отправить</p>
+      </button>
+       
+              
+            </form>
+          </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
 
