@@ -1137,42 +1137,6 @@ textarea {
   position: relative;
 }
 
-/*CHECKBOX-5
-
-
-.ch-icon-pass {
-display: flex;
-  align-items: center;
-  justify-content: center;
-
-  
-  width: 16px;
-  height: 15px; 
-  border-radius: 2px;
-  border: 2px solid #2f303a;
-  
-}
-.chek {
-  display: flex;
-  align-items: center;
-  justify-content:space-evenly;
-}
-.ch-activ-icon {
-  opacity: 0;
-  width: 16px;
-  height: 15px;
-  transition-property: opacity;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.ch__input:checked + .ch-activ-icon {
-  opacity: 1;
-}
-
-.ch__input:checked ~ .ch-icon-pass {
-  opacity: 0;
-}*/
 
 /*FOOTER'S FORM*/
 .footer-form {
